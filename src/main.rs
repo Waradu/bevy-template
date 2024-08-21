@@ -1,11 +1,9 @@
 #![windows_subsystem = "windows"]
 
 use bevy::{
-    prelude::*,
-    window::{Cursor, PrimaryWindow},
+    prelude::*
 };
 use bevy_embedded_assets::{EmbeddedAssetPlugin, PluginMode};
-use rand::Rng;
 
 #[derive(Component)]
 struct MainCamera;
