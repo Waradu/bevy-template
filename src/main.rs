@@ -1,8 +1,6 @@
 #![windows_subsystem = "windows"]
 
-use bevy::{
-    prelude::*
-};
+use bevy::prelude::*;
 use bevy_embedded_assets::{EmbeddedAssetPlugin, PluginMode};
 
 #[derive(Component)]
